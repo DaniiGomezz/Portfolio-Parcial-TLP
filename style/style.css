@@ -79,3 +79,93 @@
 }
 
 /* index */
+/* <----------------------------> */
+
+
+
+/* about */
+.contenedorA {
+    width: 1050px;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.contenedorA h1 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.padreSF {
+    width: 1300px;
+    height: 550px;
+    display: flex;
+}
+.sobremi {
+    width: 520px;
+    height: 480px;
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+    background-color: #212529;
+margin-left: 250px;
+
+
+}
+
+.sobremi p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.foto {
+    width: 250px;
+    height: 150px;
+    justify-content: end;
+    
+}
+
+.foto img {
+    width: 440px;
+    height: 250px;
+}
+.pie-pag {
+    width: 100%;
+    height: 70px;
+    margin-top: 200px;
+    
+}
+
+
+
+.iconss {
+    width: 100%;
+    height:70px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 40px 0 rgba(255, 0, 132, 0.975);
+    border-radius: 6px;
+}
+
+
+.iconss h6 {
+    color: white;
+    margin-top: 30px;
+    font-style: italic;
+
+}
+.logoss {
+    width: 20%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.logoss a {
+
+    color: rgb(255, 0, 115);
+}
+
+
+/* skill.html */
