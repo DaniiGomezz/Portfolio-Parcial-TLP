@@ -1,63 +1,48 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'josefin sans', sans-serif;
-}
-
 /* index */
-.contenedorH {
 
-    width: 580px;
-    height: 350px;
-    margin-left: 450px;
-    box-shadow: 0 0 40px 0 rgba(255, 0, 132, 0.975);
-    border-radius: 6px;
-
-
-
+body {
+    color: white !important;
 }
+
 
 .titulos {
 
-
-    width: 580px;
-    height: 350px;
-    margin-top: 200px;
     border: solid 2px rgb(255, 255, 0);
-    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.975);
+
+    border-radius: 6px;
+    box-shadow: 0 0 40px 0 rgba(255, 0, 132, 0.975);
     border-radius: 6px;
 }
 
+
+
 #p1 {
-    margin-left: 70px;
+
     color: rgb(229, 229, 229);
     font-size: 60px;
-    font-style: oblique;
-    padding-top: 20px;
+
 
 }
 
 #p2 {
     color: rgb(255, 255, 37);
-    margin-top: 85px;
-    margin-left: 210px;
     font-style: italic;
 
 }
 
-.icons {
 
-    width: 300px;
-    height: 40px;
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
     margin-top: 80px;
-    margin-left: 129px;
 
 
 }
 
-.logos {
-    display: flex;
-    justify-content: space-between;
+section a {
+    color: rgb(255, 0, 115);
 }
 
 .logos a {
@@ -75,7 +60,7 @@
 }
 
 .nave:hover {
-    transform: scale(1.3);
+    transform: scale(1);
 }
 
 /* index */
@@ -84,64 +69,49 @@
 
 
 /* about */
-.contenedorA {
-    width: 1050px;
-    height: 600px;
-    margin-top: 40px;
-    margin-left: 40px;
-}
 
-.contenedorA h1 {
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    
-}
+
+
 
 .padreSF {
     width: 1300px;
     height: 550px;
     display: flex;
 }
-.sobremi {
-    width: 520px;
-    height: 480px;
-    margin-top: 80px;
-    color: rgb(255, 255, 255);
-    background-color: #212529;
-margin-left: 250px;
 
-
-}
-
-.sobremi p {
-    text-align: justify;
-    font-size: 16px;
-}
 
 .foto {
     width: 250px;
     height: 150px;
     justify-content: end;
-    
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    padding: 0;
 }
 
 .foto img {
     width: 440px;
     height: 250px;
 }
+
 .pie-pag {
     width: 100%;
     height: 70px;
     margin-top: 200px;
-    
+
 }
 
 
 
 .iconss {
     width: 100%;
-    height:70px;
+    height: 70px;
     display: flex;
     justify-content: space-around;
     box-shadow: 0 0 40px 0 rgba(255, 0, 132, 0.975);
@@ -151,17 +121,14 @@ margin-left: 250px;
 
 .iconss h6 {
     color: white;
-    margin-top: 30px;
+
     font-style: italic;
 
 }
-.logoss {
-    width: 20%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    
-}
+
+
+
+
 .logoss a {
 
     color: rgb(255, 0, 115);
@@ -170,127 +137,106 @@ margin-left: 250px;
 
 /* skill.html */
 .contenedorS {
-    width: 70%;
-    height: 800px;
-    margin-top: 50px;
-    margin-left: 210px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+
 }
-.contenedorS h3  {
+
+.contenedorS h3 {
     color: rgb(254, 254, 254);
     font-size: 40px;
-    margin-left: 450px;
+
 }
+
 #pa1 {
     font-size: 20px;
-    margin-left: 470px;
-margin-top: 90px;
-color: aliceblue;
- }
+
+    color: aliceblue;
+}
 
 #pa2 {
     font-size: 20px;
-    margin-left: 476px;
-margin-top: 60px;
-color: rgb(255, 255, 255);
+
+    color: rgb(255, 255, 255);
 }
+
 #pa3 {
     font-size: 20px;
-    margin-left: 448px;
-margin-top: 60px;
-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
+
 .padreS {
+    width: 50%;
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-evenly;
+    margin-bottom: 20px;
 }
+
 .padreS img {
     width: 110px;
     height: 100px;
+
 }
+
 .img1 {
-    width: 110px;
-    height: 100px;
-    margin-top: 30px;
+
     box-shadow: 0 0 10px 0 rgba(255, 225, 0, 0.995);
     border-radius: 6px;
 }
+
 .img2 {
-    width: 110px;
-    height: 100px;
-    margin-top: 30px;
-    box-shadow: 0 0 10px 0  rgba(54, 59, 108, 0.975);
+
+    box-shadow: 0 0 10px 0 rgba(54, 59, 108, 0.975);
     border-radius: 6px;
 }
+
 .img3 {
-    width: 110px;
-    height: 100px;
-    margin-top: 30px;
+
     box-shadow: 0 0 10px 0 rgba(209, 22, 22, 0.975);
     border-radius: 6px;
 }
+
 .img4 {
-    width: 110px;
-    height: 100px;
-    margin-top: 30px;
+
     box-shadow: 0 0 10px 0 rgba(2, 249, 2, 0.975);
     border-radius: 6px;
 }
-.padreS2 {
-    width: 300px;
-    height: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 375px;
-    margin-top: 70px;
-}
-.padreS2 img{
-    width: 110px;
-    height: 100px;
-    
-}
+
+
 .img5 {
-    width: 110px;
-    height: 100px;
-    
-    box-shadow: 0 0 10px 0  rgba(0, 0, 0, 0.975);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.975);
     border-radius: 6px;
-    
+
 }
+
 .img6 {
-    width: 110px;
-    height: 100px;
-    
-    box-shadow: 0 0 10px 0  rgba(0, 255, 204, 0.975);
+    box-shadow: 0 0 10px 0 rgba(0, 255, 204, 0.975);
     border-radius: 6px;
-    
+
 }
-.padreS3 {
-    width: 300px;
-    height: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 375px;
-    margin-top: 30px;
-}
-.padreS3 img{
-    width: 110px;
-    height: 110px;
-    
-}
+
+
 .img7 {
     width: 110px;
     height: 115px;
     margin-top: 30px;
-    box-shadow: 0 0 10px 0  rgba(0, 234, 255, 0.975);
+    box-shadow: 0 0 10px 0 rgba(0, 234, 255, 0.975);
     border-radius: 6px;
-    
+
 }
+
 .img8 {
     width: 110px;
     height: 115px;
     margin-top: 30px;
-    box-shadow: 0 0 10px 0  rgba(247, 76, 2, 0.975);
+    box-shadow: 0 0 10px 0 rgba(247, 76, 2, 0.975);
     border-radius: 6px;
-    
+
 }
+
 /* skills.html */
